@@ -8,21 +8,21 @@ import (
 
 func TestSessionStatus(t *testing.T) {
 	tests := []struct {
-		name  string
-		flags uint16
-		guest bool
-		null  bool
+		name      string
+		flags     uint16
+		guest     bool
+		anonymous bool
 	}{
 		{"regular", 0x0000, false, false},
 		{"guest", 0x0001, true, false},
-		{"null", 0x0002, false, true},
-		{"guest and null", 0x0003, true, true},
+		{"anonymous", 0x0002, false, true},
+		{"guest and anonymous", 0x0003, true, true},
 		{"encryption only", 0x0004, false, false},
 		{"guest with encryption", 0x0005, true, false},
-		{"null with encryption", 0x0006, false, true},
+		{"anonymous with encryption", 0x0006, false, true},
 		{"unrelated flag", 0x8000, false, false},
 		{"guest with unrelated flag", 0x8001, true, false},
-		{"null with unrelated flag", 0x8002, false, true},
+		{"anonymous with unrelated flag", 0x8002, false, true},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
@@ -35,8 +35,8 @@ func TestSessionStatus(t *testing.T) {
 					if got := s.IsGuest(); got != tt.guest {
 						t.Errorf("IsGuest() = %v, want %v (flags %#04x)", got, tt.guest, tt.flags)
 					}
-					if got := s.IsNull(); got != tt.null {
-						t.Errorf("IsNull() = %v, want %v (flags %#04x)", got, tt.null, tt.flags)
+					if got := s.IsAnonymous(); got != tt.anonymous {
+						t.Errorf("IsAnonymous() = %v, want %v (flags %#04x)", got, tt.anonymous, tt.flags)
 					}
 				})
 			}

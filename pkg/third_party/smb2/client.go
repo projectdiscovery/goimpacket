@@ -80,9 +80,9 @@ func (c *Session) IsGuest() bool {
 	return c.s.sessionFlags&SMB2_SESSION_FLAG_IS_GUEST != 0
 }
 
-// IsNull reports whether the server marked the completed session as a null (anonymous) session.
+// IsAnonymous reports whether the server marked the completed session as a null (anonymous) session.
 // Call it on a session returned by a successful Dial or DialContext call.
-func (c *Session) IsNull() bool {
+func (c *Session) IsAnonymous() bool {
 	return c.s.sessionFlags&SMB2_SESSION_FLAG_IS_NULL != 0
 }
 
