@@ -552,8 +552,16 @@ func (conn *conn) runReciever() {
 
 		for {
 			p := PacketCodec(pkt)
+			if p.IsInvalid() {
+				err = &InvalidResponseError{"broken packet header format"}
+				goto exit
+			}
 
 			if off := p.NextCommand(); off != 0 {
+				if off < 64 || uint64(off)+64 > uint64(len(pkt)) {
+					err = &InvalidResponseError{"broken compound packet format"}
+					goto exit
+				}
 				pkt, next = pkt[:off], pkt[off:]
 			} else {
 				next = nil
@@ -596,6 +604,9 @@ exit:
 
 func accept(cmd uint16, pkt []byte) (res []byte, err error) {
 	p := PacketCodec(pkt)
+	if p.IsInvalid() {
+		return nil, &InvalidResponseError{"broken packet header format"}
+	}
 	if command := p.Command(); cmd != command {
 		return nil, &InvalidResponseError{fmt.Sprintf("expected command: %v, got %v", cmd, command)}
 	}
