@@ -21,12 +21,12 @@ import (
 	"log"
 	"net"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/epmapper"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/header"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/tsch"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/epmapper"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/header"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/tsch"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // ICPR interface UUID: 91ae6020-9e3c-11cf-8d7c-00aa00c091be v0.0

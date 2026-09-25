@@ -9,7 +9,7 @@ import (
 
 	"testing"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/utf16le"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/utf16le"
 )
 
 func TestNtowfv2(t *testing.T) {

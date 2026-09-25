@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/atexec"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/tsch"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/atexec"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/tsch"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 var (

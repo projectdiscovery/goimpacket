@@ -3,7 +3,7 @@ package types
 import (
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
 )
 
 // Reference: https://www.ietf.org/rfc/rfc4120.txt

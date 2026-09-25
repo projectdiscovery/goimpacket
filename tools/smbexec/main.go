@@ -28,12 +28,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/svcctl"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
-	"github.com/Mzack9999/goimpacket/pkg/smbexec"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/svcctl"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/smbexec"
 )
 
 var (

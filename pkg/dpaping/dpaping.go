@@ -28,7 +28,7 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/gkdi"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/gkdi"
 )
 
 var (

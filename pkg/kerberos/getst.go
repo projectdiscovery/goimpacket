@@ -24,17 +24,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/config"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/credentials"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/flags"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/msgtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/patype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/config"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/credentials"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/msgtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/patype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // STRequest holds configuration for a service ticket request.

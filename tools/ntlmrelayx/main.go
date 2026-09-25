@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/relay"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/relay"
 )
 
 func main() {

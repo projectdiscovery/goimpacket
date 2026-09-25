@@ -21,10 +21,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/gssapi"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
-	"github.com/Mzack9999/goimpacket/pkg/kerberos"
+	"github.com/projectdiscovery/goimpacket/pkg/kerberos"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/gssapi"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 var debugGSSAPI = os.Getenv("DEBUG_GSSAPI") != ""

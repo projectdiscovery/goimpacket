@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // Packet types

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 // DRSUAPI UUID: e3514235-4b06-11d1-ab04-00c04fc2dcd2

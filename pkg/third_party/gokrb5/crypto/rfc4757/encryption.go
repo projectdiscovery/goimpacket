@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/etype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/etype"
 )
 
 // EncryptData encrypts the data provided using methods specific to the etype provided as defined in RFC 4757.

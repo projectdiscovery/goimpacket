@@ -25,12 +25,12 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/samr"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/ldap"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/samr"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/ldap"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 var (

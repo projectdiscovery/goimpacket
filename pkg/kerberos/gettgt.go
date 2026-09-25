@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/config"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/config"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 	"golang.org/x/crypto/md4"
 )
 

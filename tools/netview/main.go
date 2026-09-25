@@ -25,15 +25,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/samr"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/srvsvc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/wkssvc"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/samr"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/srvsvc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/wkssvc"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 func main() {

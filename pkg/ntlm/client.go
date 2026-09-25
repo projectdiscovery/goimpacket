@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 // NTLM v2 client

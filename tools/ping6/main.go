@@ -20,7 +20,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
 	"golang.org/x/net/icmp"
 	"golang.org/x/net/ipv6"
 )

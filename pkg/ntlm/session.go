@@ -21,8 +21,8 @@ import (
 	"errors"
 	"log"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 type Session struct {

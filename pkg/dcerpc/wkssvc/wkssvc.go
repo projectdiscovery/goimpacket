@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // WKSSVC UUID: 6BFFD098-A112-3610-9833-46C3F87E345A v1.0

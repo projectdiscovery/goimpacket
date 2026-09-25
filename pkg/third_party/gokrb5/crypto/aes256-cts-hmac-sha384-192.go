@@ -6,10 +6,10 @@ import (
 	"crypto/sha512"
 	"hash"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/common"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/rfc8009"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/common"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/rfc8009"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
 )
 
 // RFC https://tools.ietf.org/html/rfc8009

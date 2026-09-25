@@ -22,8 +22,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	gopacketldap "github.com/Mzack9999/goimpacket/pkg/ldap"
-	"github.com/Mzack9999/goimpacket/pkg/tds"
+	gopacketldap "github.com/projectdiscovery/goimpacket/pkg/ldap"
+	"github.com/projectdiscovery/goimpacket/pkg/tds"
 )
 
 // nextShellPort is the next TCP port for interactive shells (starts at 11000 like Impacket).

@@ -28,16 +28,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/drsuapi"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/epmapper"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/svcctl"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/winreg"
-	"github.com/Mzack9999/goimpacket/pkg/ese"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/registry"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/drsuapi"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/epmapper"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/svcctl"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/winreg"
+	"github.com/projectdiscovery/goimpacket/pkg/ese"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/registry"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 var (

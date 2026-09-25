@@ -1,4 +1,4 @@
-module github.com/Mzack9999/goimpacket
+module github.com/projectdiscovery/goimpacket
 
 go 1.25.0
 

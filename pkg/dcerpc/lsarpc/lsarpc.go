@@ -23,8 +23,8 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // MS-LSAT (LSA Translation Methods)

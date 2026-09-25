@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	. "github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/erref"
+	. "github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/erref"
 )
 
 // TransportError represents a error come from net.Conn layer.

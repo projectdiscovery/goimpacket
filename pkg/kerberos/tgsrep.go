@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/client"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/config"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/client"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/config"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // TGSResult holds the result of a TGS request for Kerberoasting

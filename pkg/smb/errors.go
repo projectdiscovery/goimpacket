@@ -18,7 +18,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2"
 )
 
 // NTSTATUS values from [MS-ERREF]. The smb2 erref package is internal, so we

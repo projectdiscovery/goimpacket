@@ -6,11 +6,11 @@ import (
 	"crypto/sha1"
 	"hash"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/common"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/rfc3961"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/rfc3962"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/common"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/rfc3961"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/rfc3962"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
 )
 
 // RFC 3962

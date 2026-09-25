@@ -20,8 +20,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // SMBRelayClient manages the SMB2 connection to the target server.

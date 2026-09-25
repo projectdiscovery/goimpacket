@@ -29,9 +29,9 @@ import (
 
 	goldap "github.com/go-ldap/ldap/v3"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	gopacketldap "github.com/Mzack9999/goimpacket/pkg/ldap"
-	"github.com/Mzack9999/goimpacket/pkg/security"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	gopacketldap "github.com/projectdiscovery/goimpacket/pkg/ldap"
+	"github.com/projectdiscovery/goimpacket/pkg/security"
 )
 
 // Package-level tracking to match Impacket's global state

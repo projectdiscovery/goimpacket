@@ -20,9 +20,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/ntlm"
-	"github.com/Mzack9999/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/ntlm"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
 )
 
 // RPCAuthHandler is the interface for RPC authentication handlers.

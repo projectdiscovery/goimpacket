@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/ldap"
-	"github.com/Mzack9999/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/ldap"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
 )
 
 var (

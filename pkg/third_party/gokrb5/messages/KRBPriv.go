@@ -5,14 +5,14 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/asn1tools"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/asnAppTag"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/msgtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/krberror"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/asn1tools"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/asnAppTag"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/msgtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/krberror"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // KRBPriv implements RFC 4120 type: https://tools.ietf.org/html/rfc4120#section-5.7.1.

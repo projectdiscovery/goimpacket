@@ -34,7 +34,7 @@ import (
 	"encoding/binary"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 // Each helper below uses d.CheckBounds(count, elemSize, what) before

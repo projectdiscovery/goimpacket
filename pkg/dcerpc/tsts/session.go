@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // SessionClient wraps the TermSrvSession interface (LSM_API_service pipe).

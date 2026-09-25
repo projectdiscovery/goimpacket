@@ -25,7 +25,7 @@ import (
 
 	"github.com/Mzack9999/gopacket"
 	"github.com/Mzack9999/gopacket/layers"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
 )
 
 // Protocol name to number mapping

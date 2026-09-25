@@ -41,10 +41,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/mapi"
-	"github.com/Mzack9999/goimpacket/pkg/nspi"
-	"github.com/Mzack9999/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/mapi"
+	"github.com/projectdiscovery/goimpacket/pkg/nspi"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
 )
 
 const VERSION = "1.0.0"

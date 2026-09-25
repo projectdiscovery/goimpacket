@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
 )
 
 // Config represents the KRB5 configuration.

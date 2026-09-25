@@ -42,8 +42,8 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/svcctl"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/svcctl"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 // Mode selects the output-retrieval mechanism.

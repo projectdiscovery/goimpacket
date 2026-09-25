@@ -48,7 +48,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 // Decoder walks an NDR byte stream.

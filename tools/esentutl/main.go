@@ -23,8 +23,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/ese"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/ese"
 )
 
 var (

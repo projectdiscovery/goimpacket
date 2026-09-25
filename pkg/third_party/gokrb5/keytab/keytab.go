@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 const (

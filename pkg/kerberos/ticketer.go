@@ -26,12 +26,12 @@ import (
 	"time"
 
 	gokrbasn1 "github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/adtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/flags"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/keytab"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/adtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/keytab"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // TicketConfig holds configuration for ticket creation

@@ -22,7 +22,7 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // MS-TSTS Terminal Services Terminal Server Runtime Interface Protocol

@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/svcctl"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/svcctl"
 )
 
 // getAttackModule returns the attack module for the given name.

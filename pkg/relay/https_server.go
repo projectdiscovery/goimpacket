@@ -28,7 +28,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/internal/build"
 )
 
 // HTTPSRelayServer wraps HTTPRelayServer with TLS.

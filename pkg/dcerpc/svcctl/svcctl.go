@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // MS-SCMR (Service Control Manager Remote Protocol)

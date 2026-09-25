@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/kadmin"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/kadmin"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
 )
 
 // Kpasswd server response codes.

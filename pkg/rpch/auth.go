@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/kerberos"
-	"github.com/Mzack9999/goimpacket/pkg/ntlm"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/kerberos"
+	"github.com/projectdiscovery/goimpacket/pkg/ntlm"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // AUTH types

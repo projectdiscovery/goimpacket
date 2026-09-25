@@ -1,11 +1,11 @@
 package client
 
 import (
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/flags"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/krberror"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/krberror"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // TGSREQGenerateAndExchange generates the TGS_REQ and performs a TGS exchange to retrieve a ticket to the specified SPN.

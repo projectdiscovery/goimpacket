@@ -63,8 +63,8 @@ import (
 	gokrb5config "github.com/oiweiwei/gokrb5.fork/v9/config"
 	gokrb5credentials "github.com/oiweiwei/gokrb5.fork/v9/credentials"
 
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 // DefaultShell mirrors Impacket wmiexec.py's default cmd.exe wrapper.

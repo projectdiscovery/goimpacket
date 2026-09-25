@@ -28,7 +28,7 @@ import (
 	"github.com/Mzack9999/gopacket"
 	"github.com/Mzack9999/gopacket/layers"
 	"github.com/Mzack9999/gopacket/pcap"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
 )
 
 // Supported datalink types

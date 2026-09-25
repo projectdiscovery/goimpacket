@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/internal/build"
 )
 
 // SMB2 flags used by the SOCKS plugin
