@@ -1,7 +1,7 @@
 # Contributing to gopacket
 
 Contributions are welcome. This document covers what you need to know before
-opening an issue or pull request.
+opening a pull request. GitHub issues are not enabled on this repository.
 
 ## Reporting Bugs
 
@@ -33,11 +33,12 @@ SIDs, and anything that could be tied back to a real engagement. Replacing
 `corp.internal` with `example.local` is fine — keep the structure, just
 not the identifying values. **If in doubt, redact it.**
 
-[Open a bug report](https://github.com/projectdiscovery/goimpacket/issues/new)
+Open a [pull request](https://github.com/projectdiscovery/goimpacket/compare)
+with the repro (and a test when you can). Do not file a GitHub issue.
 
 ## Feature Requests
 
-Open a [GitHub issue](https://github.com/projectdiscovery/goimpacket/issues/new)
+Open a [pull request](https://github.com/projectdiscovery/goimpacket/compare)
 describing the use case and the Impacket equivalent (if any). If the feature
 is on the "Missing Features" list in the README, mention which one — it
 helps us prioritize.
@@ -46,8 +47,8 @@ helps us prioritize.
 
 ### Before you start
 
-- For non-trivial changes, open an issue first to discuss the approach.
-  This avoids wasted effort if the design needs adjustment.
+- For non-trivial changes, open a draft pull request first to discuss
+  the approach. This avoids wasted effort if the design needs adjustment.
 - Keep changes focused — separate refactors from feature work and bug fixes.
 
 ### Requirements
@@ -74,7 +75,7 @@ go test ./...
 
 - Use a short, imperative subject line (under 50 characters if possible).
 - Explain *why* in the body, not *what* — the diff shows the what.
-- Reference the GitHub issue number if one exists (e.g. `Fixes #42`).
+- Reference a related pull request if one exists.
 
 ### Review process
 
