@@ -21,7 +21,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/internal/build"
 )
 
 // RAWRelayServer listens for incoming raw TCP connections and captures

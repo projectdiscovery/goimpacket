@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/internal/build"
 )
 
 // HTTPSocksPlugin implements the SOCKS plugin for HTTP/HTTPS protocol.

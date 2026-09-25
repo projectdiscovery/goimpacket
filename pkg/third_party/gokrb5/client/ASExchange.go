@@ -1,14 +1,14 @@
 package client
 
 import (
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/etype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/patype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/krberror"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/etype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/keyusage"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/patype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/krberror"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // ASExchange performs an AS exchange for the client to retrieve a TGT.

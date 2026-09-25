@@ -25,16 +25,16 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/client"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/config"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/credentials"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/gssapi"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/keytab"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/client"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/config"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/credentials"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/gssapi"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/keytab"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // TransportKDCDialer routes every KDC connection (AS, TGS, kpasswd) through

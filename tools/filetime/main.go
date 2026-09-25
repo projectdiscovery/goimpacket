@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2"
 )
 
 var (

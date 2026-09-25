@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/winreg"
-	"github.com/Mzack9999/goimpacket/pkg/registry"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/winreg"
+	"github.com/projectdiscovery/goimpacket/pkg/registry"
 )
 
 // SAMDumpAttack dumps local SAM hashes via remote registry (Impacket default SMB attack).

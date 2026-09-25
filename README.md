@@ -11,7 +11,7 @@ A complete Go implementation of [Impacket](https://github.com/fortra/impacket) -
 ## Installation
 
 ```bash
-git clone https://github.com/Mzack9999/goimpacket
+git clone https://github.com/projectdiscovery/goimpacket
 cd goimpacket
 
 # Default: Linux/macOS build + install to /usr/local/bin
@@ -91,7 +91,7 @@ UDP-dependent features are **disabled** under `-proxy` rather than silently leak
 
 ## Documentation
 
-See the [Library Developer Guide](https://github.com/Mzack9999/goimpacket/wiki) for full API documentation, code examples, and architecture overview for building custom tools on top of goimpacket's 24 protocol packages.
+See the [Library Developer Guide](https://github.com/projectdiscovery/goimpacket/wiki) for full API documentation, code examples, and architecture overview for building custom tools on top of goimpacket's 24 protocol packages.
 
 ## Tools (63)
 
@@ -352,7 +352,7 @@ This single triage step saves a lot of round-trips, so please don't skip it.
    and `dc01.corp.internal` → `dc01.example.local` is fine - keep the
    structure of the data, just not the identifying values. **If in doubt,
    redact it.**
-4. Open a [GitHub issue](https://github.com/Mzack9999/goimpacket/issues/new) and include:
+4. Open a [GitHub issue](https://github.com/projectdiscovery/goimpacket/issues/new) and include:
    - Both outputs (gopacket and Impacket), as text not screenshots, anonymized
    - The exact command line you ran (anonymized)
    - Target OS, AD functional level, and any relevant hardening
@@ -361,7 +361,7 @@ This single triage step saves a lot of round-trips, so please don't skip it.
 
 ### Feature requests
 
-Open a [GitHub issue](https://github.com/Mzack9999/goimpacket/issues/new) describing the use case
+Open a [GitHub issue](https://github.com/projectdiscovery/goimpacket/issues/new) describing the use case
 and the Impacket equivalent (if any). If the feature is on the
 "Missing Features" list above, mention which one - it helps us prioritize.
 

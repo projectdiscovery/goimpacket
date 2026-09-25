@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // ExtraUsageLine is appended to the "Usage: tool [options] target" line (e.g. "[maxRid]")

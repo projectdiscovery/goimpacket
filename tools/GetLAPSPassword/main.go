@@ -25,11 +25,11 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/gkdi"
-	"github.com/Mzack9999/goimpacket/pkg/dpaping"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/ldap"
-	"github.com/Mzack9999/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/gkdi"
+	"github.com/projectdiscovery/goimpacket/pkg/dpaping"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/ldap"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
 )
 
 var (

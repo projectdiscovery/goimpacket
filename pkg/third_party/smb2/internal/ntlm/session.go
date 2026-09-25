@@ -5,7 +5,7 @@ import (
 	"crypto/rc4"
 	"errors"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/utf16le"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/utf16le"
 )
 
 type Session struct {

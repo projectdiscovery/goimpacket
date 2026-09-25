@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/pkg/kerberos"
-	"github.com/Mzack9999/goimpacket/pkg/registry"
+	"github.com/projectdiscovery/goimpacket/pkg/kerberos"
+	"github.com/projectdiscovery/goimpacket/pkg/registry"
 )
 
 func main() {

@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2"
 )
 
 // File attribute constants from MS-FSCC 2.6

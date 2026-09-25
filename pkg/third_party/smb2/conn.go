@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	. "github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/erref"
-	. "github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/smb2"
+	. "github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/erref"
+	. "github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/smb2"
 )
 
 // Negotiator contains options for func (*Dialer) Dial.

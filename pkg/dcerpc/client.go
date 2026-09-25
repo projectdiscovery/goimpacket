@@ -22,11 +22,11 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/header"
-	"github.com/Mzack9999/goimpacket/pkg/session"
-	"github.com/Mzack9999/goimpacket/pkg/structure"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/header"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/pkg/structure"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2"
 )
 
 type Client struct {

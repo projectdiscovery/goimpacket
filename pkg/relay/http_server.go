@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/internal/build"
 )
 
 // HTTPRelayServer listens for incoming HTTP connections and captures

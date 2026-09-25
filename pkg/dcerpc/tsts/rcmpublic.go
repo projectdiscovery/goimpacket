@@ -19,8 +19,8 @@ import (
 	"encoding/binary"
 	"log"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
 )
 
 // RCMPublicClient wraps the RCMPublic interface (TermSrv_API_service pipe).

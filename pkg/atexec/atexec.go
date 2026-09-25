@@ -35,8 +35,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/tsch"
-	"github.com/Mzack9999/goimpacket/pkg/smb"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/tsch"
+	"github.com/projectdiscovery/goimpacket/pkg/smb"
 )
 
 // TaskXMLTemplate is the Impacket-compatible one-shot scheduled task XML.

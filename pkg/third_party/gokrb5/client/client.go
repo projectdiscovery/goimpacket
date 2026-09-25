@@ -10,16 +10,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/config"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/credentials"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/etype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/nametype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/keytab"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/krberror"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/config"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/credentials"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/etype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/keytab"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/krberror"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
 )
 
 // KDCDialer is the interface a caller must satisfy to direct all KDC traffic

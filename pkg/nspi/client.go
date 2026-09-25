@@ -23,10 +23,10 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/mapi"
-	"github.com/Mzack9999/goimpacket/pkg/rpch"
-	"github.com/Mzack9999/goimpacket/pkg/session"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/mapi"
+	"github.com/projectdiscovery/goimpacket/pkg/rpch"
+	"github.com/projectdiscovery/goimpacket/pkg/session"
 
 	"github.com/google/uuid"
 )

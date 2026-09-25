@@ -3,8 +3,8 @@ package smb2
 import (
 	"encoding/asn1"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/ntlm"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/spnego"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/ntlm"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/spnego"
 )
 
 type Initiator interface {

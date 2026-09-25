@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/tds"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/tds"
 )
 
 // MSSQLRelayClient relays NTLM authentication to a MSSQL target via TDS protocol.

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Mzack9999/goimpacket/pkg/kerberos"
+	"github.com/projectdiscovery/goimpacket/pkg/kerberos"
 )
 
 // Login attempts to bind to the LDAP server using the session credentials.

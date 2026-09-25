@@ -5,9 +5,9 @@ import (
 	"crypto/aes"
 	"encoding/hex"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/crypto/cmac"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/crypto/cmac"
 
-	. "github.com/Mzack9999/goimpacket/pkg/third_party/smb2/internal/smb2"
+	. "github.com/projectdiscovery/goimpacket/pkg/third_party/smb2/internal/smb2"
 
 	"testing"
 )

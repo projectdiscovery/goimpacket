@@ -11,8 +11,8 @@ package relay
 import (
 	"log"
 
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc"
-	"github.com/Mzack9999/goimpacket/pkg/dcerpc/svcctl"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc"
+	"github.com/projectdiscovery/goimpacket/pkg/dcerpc/svcctl"
 )
 
 // remoteRegistryState captures what ensureRemoteRegistryStarted changed on

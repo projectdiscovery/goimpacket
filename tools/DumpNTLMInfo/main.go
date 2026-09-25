@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/internal/build"
-	"github.com/Mzack9999/goimpacket/pkg/flags"
-	"github.com/Mzack9999/goimpacket/pkg/ntlm"
-	"github.com/Mzack9999/goimpacket/pkg/transport"
-	"github.com/Mzack9999/goimpacket/pkg/utf16le"
+	"github.com/projectdiscovery/goimpacket/internal/build"
+	"github.com/projectdiscovery/goimpacket/pkg/flags"
+	"github.com/projectdiscovery/goimpacket/pkg/ntlm"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
+	"github.com/projectdiscovery/goimpacket/pkg/utf16le"
 )
 
 // SMB Constants

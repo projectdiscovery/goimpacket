@@ -7,10 +7,10 @@ import (
 	"hash"
 	"io"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/rfc3961"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/crypto/rfc4757"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/rfc3961"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/crypto/rfc4757"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/chksumtype"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
 	"golang.org/x/crypto/md4"
 )
 

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
-	"github.com/Mzack9999/goimpacket/pkg/third_party/gokrb5/messages"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/errorcode"
+	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/messages"
 )
 
 // DirectDialer is a KDCDialer that uses net.DialTimeout directly. Restores the
