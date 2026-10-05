@@ -15,6 +15,7 @@
 package smb
 
 import (
+	"context"
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
@@ -77,6 +78,13 @@ func (c *Client) SetDialer(d *transport.Dialer) {
 }
 
 func (c *Client) Connect() error {
+	return c.ConnectContext(context.Background())
+}
+
+// ConnectContext connects and authenticates like Connect, giving up when ctx
+// is done. Without it a caller can only abandon a stalled connect by closing
+// the client from another goroutine, which races with the connect itself.
+func (c *Client) ConnectContext(ctx context.Context) error {
 
 	port := c.Target.Port
 
@@ -97,9 +105,11 @@ func (c *Client) Connect() error {
 
 	}
 
-	conn, err := c.dialer.Dial("tcp", address)
+	dialCtx, cancelDial := context.WithTimeout(ctx, c.dialer.Timeout())
+	conn, err := c.dialer.DialContext(dialCtx, "tcp", address)
+	cancelDial()
 	if err != nil {
-		return fmt.Errorf("failed to connect to %s: %v", address, err)
+		return fmt.Errorf("failed to connect to %s: %w", address, err)
 	}
 	c.conn = conn
 
@@ -161,10 +171,10 @@ func (c *Client) Connect() error {
 		log.Printf("[D] SMB: Negotiating and Authenticating as %s\\%s", c.Creds.Domain, c.Creds.Username)
 	}
 
-	s, err := d.Dial(conn)
+	s, err := d.DialContext(ctx, conn)
 	if err != nil {
 		conn.Close()
-		return fmt.Errorf("SMB login failed: %v", err)
+		return fmt.Errorf("SMB login failed: %w", err)
 	}
 
 	c.Session = s
