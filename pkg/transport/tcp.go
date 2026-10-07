@@ -109,13 +109,18 @@ type Dialer struct {
 
 // Dial establishes a TCP connection to address.
 func (d *Dialer) Dial(network, address string) (net.Conn, error) {
+	ctx, cancel := context.WithTimeout(context.Background(), d.Timeout())
+	defer cancel()
+	return d.DialContext(ctx, network, address)
+}
+
+// Timeout is how long Dial waits for a connection.
+func (d *Dialer) Timeout() time.Duration {
 	timeout := DefaultTimeout
 	if d != nil && d.TimeoutSec > 0 {
 		timeout = d.TimeoutSec
 	}
-	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(timeout)*time.Second)
-	defer cancel()
-	return d.DialContext(ctx, network, address)
+	return time.Duration(timeout) * time.Second
 }
 
 // DialContext establishes a TCP connection honoring the context. Per-instance

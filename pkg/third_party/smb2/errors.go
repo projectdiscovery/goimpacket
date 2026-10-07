@@ -58,3 +58,7 @@ func (err *ContextError) Timeout() bool {
 func (err *ContextError) Error() string {
 	return err.Err.Error()
 }
+
+func (err *ContextError) Unwrap() error {
+	return err.Err
+}
