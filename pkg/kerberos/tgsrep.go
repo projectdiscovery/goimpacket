@@ -25,6 +25,7 @@ import (
 	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/etypeID"
 	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/iana/nametype"
 	"github.com/projectdiscovery/goimpacket/pkg/third_party/gokrb5/types"
+	"github.com/projectdiscovery/goimpacket/pkg/transport"
 )
 
 // TGSResult holds the result of a TGS request for Kerberoasting
@@ -47,6 +48,12 @@ type TGSOptions struct {
 	KDCHost    string
 	TargetUser string
 	SPN        string
+
+	// Dialer, when non-nil, routes the KDC connection (both the AS exchange
+	// for the TGT and the TGS exchange) through its DialFn, mirroring
+	// GetASREPWithDialer. A nil Dialer keeps the default TransportKDCDialer,
+	// which honors the process-wide transport.SetDial / proxy configuration.
+	Dialer *transport.Dialer
 }
 
 // GetTGS requests a service ticket (TGS) for the given SPN and returns it in hashcat format.
@@ -105,6 +112,14 @@ func GetTGSWithOptions(opts TGSOptions) (*TGSResult, error) {
 
 	var cl *client.Client
 
+	// A caller-supplied dialer takes precedence for the KDC connection; the
+	// default routes through pkg/transport (SetDial / proxy). *transport.Dialer
+	// satisfies client.KDCDialer, so no adapter is needed.
+	var kdcDialer client.KDCDialer = TransportKDCDialer{}
+	if opts.Dialer != nil {
+		kdcDialer = opts.Dialer
+	}
+
 	// Create client based on auth method
 	if opts.NTHash != "" {
 		// Pass-the-hash: create keytab from NT hash
@@ -112,10 +127,10 @@ func GetTGSWithOptions(opts TGSOptions) (*TGSResult, error) {
 		if err != nil {
 			return nil, fmt.Errorf("failed to create keytab from hash: %v", err)
 		}
-		cl = client.NewWithKeytab(TransportKDCDialer{}, opts.Username, realm, kt, cfg, client.DisablePAFXFAST(true))
+		cl = client.NewWithKeytab(kdcDialer, opts.Username, realm, kt, cfg, client.DisablePAFXFAST(true))
 	} else if opts.Password != "" {
 		// Password authentication
-		cl = client.NewWithPassword(TransportKDCDialer{}, opts.Username, realm, opts.Password, cfg, client.DisablePAFXFAST(true))
+		cl = client.NewWithPassword(kdcDialer, opts.Username, realm, opts.Password, cfg, client.DisablePAFXFAST(true))
 	} else {
 		return nil, fmt.Errorf("either password or NT hash must be provided")
 	}
